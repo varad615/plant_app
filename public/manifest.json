@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Fabrink",
-    "short_name": "Fabrink",
-    "description": "Print on demand E-Commerce website",
+    "name": "Plants App",
+    "short_name": "Plants App",
+    "description": "Best Plants App",
     "icons": [
         {
             "src": "/icon-192x192.png",
