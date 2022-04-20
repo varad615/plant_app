@@ -1,0 +1,129 @@
+.gridwrapper {
+  --auto-grid-min-size: 16rem;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size), 1fr)
+  );
+  margin: 0;
+
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.float {
+  position: fixed;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #0c9869;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+}
+.gridwrapper li {
+  background-color: #d2fff0;
+  border: 2px solid #0c9869;
+  color: #ffffff;
+  border-radius: 13px;
+  font-size: 24px;
+  list-style-type: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.maincontainer {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 2rem 1rem;
+}
+.imgspace {
+  padding: 2px;
+}
+.infospace {
+  padding: 12px;
+  background-color: #0c9869;
+  border-radius: 0px 0px 12px 12px;
+}
+.infospace p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.btn {
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 600;
+  padding: 12px;
+  text-transform: uppercase;
+}
+.btn2 {
+  background: #ffa3a3;
+  border: 1px solid #ffa3a3;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fd045c;
+}
+/* 
+heading
+ */
+.crleft {
+  text-align: center;
+  background-color: #0c9869;
+  border-radius: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 12px;
+}
+.crleft h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.crleft p {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+  color: #ffffff;
+  padding: 0;
+  font-family: sans-serif;
+}
+.loginbtn {
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  color: black;
+  border: 2px solid;
+  border-color: black;
+  padding: 12px 30px;
+  text-align: center;
+  font-weight: 800;
+  display: flex;
+  margin-top: 5%;
+  cursor: pointer;
+}
+.login img {
+  width: 50%;
+  margin-top: 5%;
+}
+.login {
+  height: 100%;
+  display: flex;
+  padding-left: 5;
+  padding-right: 5;
+  padding-top: 24;
+  padding-bottom: 24;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
